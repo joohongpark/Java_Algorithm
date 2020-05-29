@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="Stack 구현">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/_stackUseExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module/stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/useful/getInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mainClass.java" afterDir="false" />
     </list>
@@ -94,6 +109,18 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stack 구현" />
     <option name="LAST_COMMIT_MESSAGE" value="Stack 구현" />
@@ -131,22 +158,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="712" y="255" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590714161471" />
-    <state width="1579" height="144" key="GridCell.Tab.0.bottom" timestamp="1590718349960">
+    <state width="1579" height="211" key="GridCell.Tab.0.bottom" timestamp="1590752833599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
-    <state width="1579" height="144" key="GridCell.Tab.0.center" timestamp="1590718349960">
+    <state width="1579" height="211" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
+    <state width="1579" height="211" key="GridCell.Tab.0.center" timestamp="1590752833599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
-    <state width="1579" height="144" key="GridCell.Tab.0.left" timestamp="1590718349960">
+    <state width="1579" height="211" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
+    <state width="1579" height="211" key="GridCell.Tab.0.left" timestamp="1590752833599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
-    <state width="1579" height="144" key="GridCell.Tab.0.right" timestamp="1590718349960">
+    <state width="1579" height="211" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
+    <state width="1579" height="211" key="GridCell.Tab.0.right" timestamp="1590752833599">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
+    <state width="1579" height="211" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
     <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590664581410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
