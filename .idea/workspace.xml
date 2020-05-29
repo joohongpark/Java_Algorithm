@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="" />
+    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="Stack 구현">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/_stackUseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useful/getInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mainClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cUJBIFoAq3UJ7SDsVbUvKCDOcS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +39,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -80,6 +94,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stack 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack 구현" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="485" y="328" key="#Notifications" timestamp="1590713793146">
       <screen x="0" y="0" width="1600" height="860" />
@@ -105,22 +123,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="399" y="49" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1590714060616" />
-    <state width="1579" height="474" key="GridCell.Tab.0.bottom" timestamp="1590665801003">
+    <state x="745" y="469" key="Github.ShareDialog" timestamp="1590714127063">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.center" timestamp="1590665801003">
+    <state x="745" y="469" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1590714127063" />
+    <state x="712" y="255" key="Github.UntrackedFilesDialog" timestamp="1590714161471">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.left" timestamp="1590665801003">
+    <state x="712" y="255" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590714161471" />
+    <state width="1579" height="144" key="GridCell.Tab.0.bottom" timestamp="1590718349960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.right" timestamp="1590665801003">
+    <state width="1579" height="144" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
+    <state width="1579" height="144" key="GridCell.Tab.0.center" timestamp="1590718349960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
+    <state width="1579" height="144" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
+    <state width="1579" height="144" key="GridCell.Tab.0.left" timestamp="1590718349960">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="144" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
+    <state width="1579" height="144" key="GridCell.Tab.0.right" timestamp="1590718349960">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="144" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590718349960" />
     <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590664581410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -145,9 +171,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="505" y="321" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860@0.0.1600.860" timestamp="1590665197510" />
-    <state x="643" y="181" key="search.everywhere.popup" timestamp="1590577142711">
+    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590714769585">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="643" y="181" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590577142711" />
+    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590714769585" />
   </component>
 </project>
