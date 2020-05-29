@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="" />
+    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="Stack 구현">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/NestedTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +36,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cUJBIFoAq3UJ7SDsVbUvKCDOcS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +59,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -80,6 +114,23 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="485" y="328" key="#Notifications" timestamp="1590713793146">
       <screen x="0" y="0" width="1600" height="860" />
@@ -105,22 +156,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="399" y="49" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1590714060616" />
-    <state width="1579" height="474" key="GridCell.Tab.0.bottom" timestamp="1590665801003">
+    <state width="1579" height="144" key="GridCell.Tab.0.bottom" timestamp="1590734506445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.center" timestamp="1590665801003">
+    <state width="1579" height="144" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
+    <state width="1579" height="144" key="GridCell.Tab.0.center" timestamp="1590734506445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.left" timestamp="1590665801003">
+    <state width="1579" height="144" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
+    <state width="1579" height="144" key="GridCell.Tab.0.left" timestamp="1590734506445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
-    <state width="1579" height="474" key="GridCell.Tab.0.right" timestamp="1590665801003">
+    <state width="1579" height="144" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
+    <state width="1579" height="144" key="GridCell.Tab.0.right" timestamp="1590734506445">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="474" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590665801003" />
+    <state width="1579" height="144" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
     <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590664581410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -141,6 +192,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590577126179" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590734506483">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1590734506483" />
     <state x="505" y="321" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590665197510">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
