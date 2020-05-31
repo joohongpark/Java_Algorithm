@@ -17,8 +17,12 @@ public class LinkedList {
         if(tail == null) {
             tail = n;
         }
-        n.pointer = head;
-        head = n;
+        if(head != null) {
+            head.pointer = n;
+            head = head.pointer;
+        } else {
+            head = n;
+        }
     }
     public void _print() {
         node approach = tail;
