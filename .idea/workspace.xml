@@ -19,10 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="Stack 구현">
-      <change afterPath="$PROJECT_DIR$/src/module/LinkedList.java" afterDir="false" />
+    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="List, Linked List 구현 완료, 원형 배열을 이용한 Queue 구현 중">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module/QueueByArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/_LinkedListUseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/_ListUseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/_QueueUseExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/_stackUseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/_stackUseExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +114,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590577101608</updated>
     </task>
+    <task id="LOCAL-00001" summary="Linked List 구현 중 (기초 node 구현 완료. insert 및 print 구현 중)">
+      <created>1590752890787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590752890787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +138,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stack 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack 구현" />
+    <MESSAGE value="Linked List 구현 중 (기초 node 구현 완료. insert 및 print 구현 중)" />
+    <MESSAGE value="List, Linked List 구현 완료, 원형 배열을 이용한 Queue 구현 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="List, Linked List 구현 완료, 원형 배열을 이용한 Queue 구현 중" />
   </component>
   <component name="WindowStateProjectService">
     <state x="485" y="328" key="#Notifications" timestamp="1590713793146">
@@ -150,6 +167,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="399" y="49" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1590714060616" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1590752989255">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1590752989255" />
     <state x="745" y="469" key="Github.ShareDialog" timestamp="1590714127063">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -158,49 +179,61 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="712" y="255" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1590714161471" />
-    <state width="1579" height="211" key="GridCell.Tab.0.bottom" timestamp="1590752833599">
+    <state width="1579" height="90" key="GridCell.Tab.0.bottom" timestamp="1591006814234">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="211" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
-    <state width="1579" height="211" key="GridCell.Tab.0.center" timestamp="1590752833599">
+    <state width="1579" height="90" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591006814234" />
+    <state width="1579" height="90" key="GridCell.Tab.0.center" timestamp="1591006814234">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="211" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
-    <state width="1579" height="211" key="GridCell.Tab.0.left" timestamp="1590752833599">
+    <state width="1579" height="90" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591006814234" />
+    <state width="1579" height="90" key="GridCell.Tab.0.left" timestamp="1591006814233">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="211" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
-    <state width="1579" height="211" key="GridCell.Tab.0.right" timestamp="1590752833599">
+    <state width="1579" height="90" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591006814233" />
+    <state width="1579" height="90" key="GridCell.Tab.0.right" timestamp="1591006814234">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="211" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590752833599" />
-    <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590664581410">
+    <state width="1579" height="90" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591006814234" />
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590974777480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590664581410" />
-    <state width="1579" height="276" key="GridCell.Tab.1.center" timestamp="1590664581410">
+    <state width="1579" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590974777480" />
+    <state width="1579" height="276" key="GridCell.Tab.1.center" timestamp="1590974777480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590664581410" />
-    <state width="1579" height="276" key="GridCell.Tab.1.left" timestamp="1590664581410">
+    <state width="1579" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1590974777480" />
+    <state width="1579" height="276" key="GridCell.Tab.1.left" timestamp="1590974777480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590664581410" />
-    <state width="1579" height="276" key="GridCell.Tab.1.right" timestamp="1590664581410">
+    <state width="1579" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1590974777480" />
+    <state width="1579" height="276" key="GridCell.Tab.1.right" timestamp="1590974777480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590664581410" />
+    <state width="1579" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1590974777480" />
     <state x="0" y="9" key="SettingsEditor" timestamp="1590577126179">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1590577126179" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590752902882">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1590752902882" />
     <state x="505" y="321" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590665197510">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="505" y="321" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860@0.0.1600.860" timestamp="1590665197510" />
-    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590714769585">
+    <state x="605" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590971132266">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590714769585" />
+    <state x="605" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1590971132266" />
+    <state x="496" y="217" key="git4idea.merge.GitPullDialog" timestamp="1590971148785">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="217" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1590971148785" />
+    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590976465821">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="643" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1590976465821" />
   </component>
 </project>
