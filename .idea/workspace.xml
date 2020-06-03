@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="Stack 구현">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/NestedTestClass.java" afterDir="false" />
+    <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="원형 배열/Linked List를 이용한 Queue 구현 완료">
+      <change afterPath="$PROJECT_DIR$/src/test/ArrayNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ObjectNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,8 @@
       <list>
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Exercise7" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Exercise7" />
       </list>
     </recent_temporary>
   </component>
@@ -156,22 +159,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="399" y="49" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1590714060616" />
-    <state width="1579" height="144" key="GridCell.Tab.0.bottom" timestamp="1590734506445">
+    <state width="1090" height="222" key="GridCell.Tab.0.bottom" timestamp="1591165037915">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
-    <state width="1579" height="144" key="GridCell.Tab.0.center" timestamp="1590734506445">
+    <state width="1090" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591165037915" />
+    <state width="1090" height="222" key="GridCell.Tab.0.center" timestamp="1591165037915">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
-    <state width="1579" height="144" key="GridCell.Tab.0.left" timestamp="1590734506445">
+    <state width="1090" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591165037915" />
+    <state width="1090" height="222" key="GridCell.Tab.0.left" timestamp="1591165037915">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
-    <state width="1579" height="144" key="GridCell.Tab.0.right" timestamp="1590734506445">
+    <state width="1090" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591165037915" />
+    <state width="1090" height="222" key="GridCell.Tab.0.right" timestamp="1591165037915">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="144" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590734506445" />
+    <state width="1090" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591165037915" />
     <state width="1579" height="276" key="GridCell.Tab.1.bottom" timestamp="1590664581410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
