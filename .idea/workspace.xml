@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc59161c-4c70-40a8-95b4-3d0e4da3d76a" name="Default Changelist" comment="원형 배열/Linked List를 이용한 Queue 구현 완료">
-      <change afterPath="$PROJECT_DIR$/src/module/QueueByLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module/QueueByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/QueueByArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/_QueueUseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/_QueueUseExample.java" afterDir="false" />
     </list>
+    <list id="07c76c7d-3e4b-406d-9ff8-23f4ec8d35e5" name="Revert &quot;트리 노드 및 이진탐색트리 구현중&quot;" comment="Revert &quot;트리 노드 및 이진탐색트리 구현중&quot;&#10;&#10;This reverts commit 4bf0b095" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +164,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="399" y="49" key="#main/0.0.1600.860@0.0.1600.860" timestamp="1590714060616" />
+    <state x="544" y="85" key="CommitChangelistDialog2" timestamp="1591321794362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591321794362" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1590752989255">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
