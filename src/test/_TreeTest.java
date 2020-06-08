@@ -2,6 +2,8 @@ package test;
 
 import module.BinarySearchTree;
 
+import java.util.HashSet;
+
 public class _TreeTest {
     public static void biTreeExec() {
         BinarySearchTree tree = new BinarySearchTree();
@@ -14,14 +16,18 @@ public class _TreeTest {
         tree.insert(1);
         tree.insert(9);
          */
-        tree.insertRecursive(5);
-        tree.insertRecursive(2);
-        tree.insertRecursive(7);
-        tree.insertRecursive(4);
-        tree.insertRecursive(8);
-        tree.insertRecursive(1);
-        tree.insertRecursive(9);
-        tree.print();
+
+        int[] arr = {22, 9, 29, 23, 16, 28, 4, 11, 7, 27, 24, 1, 12, 30, 8};
+        for(int i : arr) {
+            tree.insertRecursive(i);
+        }
+
+        int[] del = {22, 9, 29, 23, 16, 28, 4, 11, 7, 27, 24, 1, 12, 30, 8};
+        for(int i : del) {
+            tree.print();
+            System.out.println(tree.delete(i));
+            //tree.insertRecursive(i);
+        }
         System.out.println(tree.searchRecursive(9));
         System.out.println(tree.search(9));
     }
